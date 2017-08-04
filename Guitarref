@@ -1,0 +1,11 @@
+package instruments;
+public class Guitar {
+  FENDER,
+  STRING,
+  ASH,
+  LIGHT,
+  750,
+  1500;
+
+
+}
