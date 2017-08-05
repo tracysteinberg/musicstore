@@ -1,4 +1,4 @@
-package shop;
+package store;
 
 public class Stock extends Shop {
 
@@ -7,14 +7,16 @@ public class Stock extends Shop {
   private int buyPrice;
   private int sellPrice;
   private int markUp;
+  private int stock;
 
 
-public Stock(String name, int buyPrice, int sellPrice, int markUp) {
-    super(name, buyPrice,  sellPrice,  markUp);
+public Stock(String name, int buyPrice, int sellPrice, int markUp,  int stock) {
+    super(stock);
     this.name = name;
     this.buyPrice = buyPrice;
     this.sellPrice = sellPrice;
     this.markUp = markUp;
+    this.stock = stock; 
     
     }
 
@@ -38,6 +40,7 @@ public Stock(String name, int buyPrice, int sellPrice, int markUp) {
   public int markUp() {
      return this.markUp;
    }
+
  
 
 

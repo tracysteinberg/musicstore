@@ -1,28 +1,28 @@
 
 import static org.junit.Assert.*;
 import org.junit.*;
-import shop.*;
+import store.*;
 
 
 public class StockTest {
 
   Stock stock;
+  Sellable sellable;
+
+
 
   
-  
-  @Before 
-  public void before() {
-    stock = new Stock("clarinet", 46, 92, 46);
-  
+    @Before 
+      public void before() {
+      stock = new Stock("clarinet", 46, 92, 46, 0);
 
    }
 
     @Test
-    public void getname() {
-     assertEquals("clarinet", stock.hasname());
+      public void getname() {
+      assertEquals("clarinet", stock.hasname());
     }
 
-   
 
     @Test
      public void getbuyPrice(){
@@ -40,15 +40,14 @@ public class StockTest {
     }
 
 
+     @Test
+     public void canmarkUp(){
+ 
+      assertEquals(46,stock.markUp());
+    
+    }
 
-    // @Test
-    //   public void canBuyPrice(){
-    //   assertEquals(750, guitar.hasBuyPrice());
-    // }
-  
-    // @Test
-    //    public void canSellPrice(){
-    //    assertEquals(1500, guitar.hasSellPrice());
-    // }
+
+
 
 }
