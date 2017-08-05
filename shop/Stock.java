@@ -35,7 +35,10 @@ public Stock(String name, int buyPrice, int sellPrice, int markUp) {
   public int hasmarkUp(int sellPrice){
      return this.sellPrice - this.buyPrice;
  }
-
+  public int markUp() {
+     return this.markUp;
+   }
+ 
 
 
 

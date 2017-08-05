@@ -2,7 +2,7 @@ package shop;
 
 public interface Sellable {
 	
-   // public int markUp();
+   public int markUp();
 
 
 
