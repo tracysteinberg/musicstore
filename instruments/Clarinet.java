@@ -4,6 +4,7 @@ package instruments;
 public class Clarinet extends Instrument {
 
   private String reedType;
+ 
   //   super( stringType );
 
   public Clarinet(String maker, String material, String colour, String reedType) {
@@ -12,8 +13,7 @@ public class Clarinet extends Instrument {
     this.maker = maker;
     this.material = material;
     this.colour = colour;
-    // this.buyingPrice = buyingPrice;
-    // this.sellingPrice = sellingPrice;
+    
 
    }
 
@@ -38,26 +38,5 @@ public class Clarinet extends Instrument {
    }
 
 
-
-  //  public Double hasbuyingPrice(){
-  //    return this.buyingPrice;
-  // }
-
-  //  public Double hassellingPrice(){
-  //    return this.sellingPrice;
-  // }
-
-
 }
 
-
-// public class Guitar {
-//   FENDER,
-//   STRING,
-//   ASH,
-//   LIGHT,
-//   750,
-//   1500;
-
-
-// }

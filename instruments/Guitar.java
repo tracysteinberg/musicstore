@@ -15,9 +15,7 @@ public class Guitar extends Instrument {
     this.maker = maker;
     this.material = material;
     this.colour = colour;
-    // this.buyingPrice = buyingPrice;
-    // this.sellingPrice = sellingPrice;
-  
+    
   }
 
   public String hasstringType(){
@@ -39,16 +37,6 @@ public class Guitar extends Instrument {
   public String hasColour(){
     return this.colour;
  }
-
-  // public Double hasbuyingPrice(){
-  //   return this.buyingPrice;
-  // }
-
-  // public Double hassellingPrice(){
-  //    return this.sellingPrice;
-  // }
-
-
 
 
 

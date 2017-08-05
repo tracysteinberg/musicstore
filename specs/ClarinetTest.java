@@ -40,15 +40,5 @@ public class ClarinetTest {
     assertEquals("Black", clarinet.hasColour());
   }
 
-  // @Test
-  // public void canBuyingPrice(){
-  //   assertEquals(46, clarinet.hasBuyingPrice());
-  // }
-  
-  // @Test
-  // public void canSellingPrice(){
-  //   assertEquals(92, clarinet.hasSellingPrice());
-  // }
-
 }
   
