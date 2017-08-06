@@ -11,32 +11,31 @@ public class ShopTest {
   Shop shop;
   Stock stock;
   Sellable sellable;
-
+  MusicSheet musicSheet;
+  
     
 
    @Before 
    public void before() {
 
      stock = new Stock("clarinet", 46, 92, 46);
+     musicSheet = new MusicSheet();
      
     }  
 
 
-
     @Test
       public void shopStartEmpty() {
-      assertEquals(0, shop.stockCount());
+      assertEquals(0, stock.stockCount());
 
 
      }
 
 
-
-
      @Test
        public void canAddStock() {
-       shop.addStock( stock );
-       assertEquals(1, shop.stockCount());
+       stock.addStock( musicSheet );
+       assertEquals(1, stock.stockCount());
 
        }
     
@@ -44,9 +43,9 @@ public class ShopTest {
     
      @Test
        public void canRemoveStock() {
-         shop.addStock(stock);
-         shop.removeStock(stock);
-         assertEquals(0, shop.stockCount());
+         stock.addStock(musicSheet);
+         stock.removeStock(musicSheet);
+         assertEquals(0, stock.stockCount());
 
       }
 

@@ -1,5 +1,5 @@
 package instruments;
-public enum Clarinet {
+public class Clarinet {
   JOHN PACKER,
   WIND,
   EBONITE,

@@ -7,14 +7,16 @@ import java.util.ArrayList;
 
 public abstract class Shop implements Sellable {
  
+
+ 
   
   public ArrayList<Sellable> shop;
  
   
 
-  public Shop () {
-   
-  this.shop = new ArrayList<Sellable>(); 
+  public Shop()  {
+
+    this.shop = new ArrayList<Sellable>(); 
   
   }
 

@@ -1,8 +1,15 @@
 package store;
 
-public interface Sellable {
+public interface Sellable{
 	
-    int markUp();
+	
+     int markUp(); 
+}
+ 
    
 
-}
+
+   
+
+ 
+
