@@ -8,13 +8,12 @@ import java.util.ArrayList;
 public abstract class Shop implements Sellable {
  
   
-  public int stock;
   public ArrayList<Sellable> shop;
  
   
-  public Shop (int stock) {
+
+  public Shop () {
    
-  this.stock = stock; 
   this.shop = new ArrayList<Sellable>(); 
   
   }

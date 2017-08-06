@@ -11,12 +11,13 @@ public class ShopTest {
   Shop shop;
   Stock stock;
   Sellable sellable;
+
     
 
    @Before 
    public void before() {
 
-     stock = new Stock("clarinet", 46, 92, 46, 0);
+     stock = new Stock("clarinet", 46, 92, 46);
      
     }  
 
@@ -50,3 +51,4 @@ public class ShopTest {
       }
 
 }
+

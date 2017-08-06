@@ -7,16 +7,17 @@ public class Stock extends Shop {
   private int buyPrice;
   private int sellPrice;
   private int markUp;
-  private int stock;
+ 
 
 
-public Stock(String name, int buyPrice, int sellPrice, int markUp,  int stock) {
-    super(stock);
+
+  public Stock(String name, int buyPrice, int sellPrice, int markUp) {
+  
     this.name = name;
     this.buyPrice = buyPrice;
     this.sellPrice = sellPrice;
     this.markUp = markUp;
-    this.stock = stock; 
+   
     
     }
 

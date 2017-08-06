@@ -14,7 +14,7 @@ public class StockTest {
   
     @Before 
       public void before() {
-      stock = new Stock("clarinet", 46, 92, 46, 0);
+      stock = new Stock("clarinet", 46, 92, 46);
 
    }
 
