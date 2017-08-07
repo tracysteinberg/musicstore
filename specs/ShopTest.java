@@ -18,7 +18,7 @@ public class ShopTest {
    @Before 
    public void before() {
 
-     stock = new Stock("clarinet", 46, 92, 46);
+     stock = new Stock("musicSheet", 1, 2, 1);
      musicSheet = new MusicSheet();
      
     }  
